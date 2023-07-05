@@ -3,7 +3,8 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: ['i.postimg.cc'],
-    unoptimized: true
+    loader: 'imgix',
+    path: '',
   },
   webpack: (config) => {
     config.module.rules.push({
