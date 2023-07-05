@@ -39,7 +39,10 @@ export default function Gallery({ images }: { images: Image[] }) {
               {siteMetadata.description}
           </h1>
           <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-          <span className="font-bold">TEL:</span> 01565 733 286
+          <span className="font-bold">TEL:</span> <a href="tel:01565733286">01565 733 286</a>
+          </p>
+          <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
+          Budworth Road, Aston-by-Budworth, CW9 6LT
           </p>
           <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch] font-bold">
           Opening Hours
@@ -50,6 +53,7 @@ export default function Gallery({ images }: { images: Image[] }) {
           </p>
           <div className="mb-3 flex space-x-4 pt-6">
             <SocialIcon kind="facebook" href={siteMetadata.facebook} size={6}/>
+            <SocialIcon kind="instagram" href={siteMetadata.instagram} size={6}/>
             <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
             <SocialIcon kind="googlemap" href={siteMetadata.googlemap} size={6}/>
           </div>

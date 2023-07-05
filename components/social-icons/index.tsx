@@ -2,13 +2,15 @@ import React from 'react';
 import Mail from './mail.svg'
 import Facebook from './facebook.svg'
 import GoogleMap from './googlemaps.svg'
+import Instagram from './instagram.svg'
 
 // Icons taken from: https://simpleicons.org/
 
 const components = {
     mail: Mail,
     facebook: Facebook,
-    googlemap: GoogleMap
+    googlemap: GoogleMap,
+    instagram: Instagram
 }
 
 interface SocialIconProps {

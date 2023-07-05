@@ -14,6 +14,7 @@ const siteMetadata: SiteMetadata
     socialBanner: '/static/images/logo_banner.png',
     email: 'curbishleysroses@gmail.com',
     facebook: 'https://www.facebook.com/people/Curbishleys-Roses/100057348553808/',
+    instagram: 'https://www.instagram.com/curbishleysroses/',
     googlemap: 'https://www.google.com/maps/place/Curbishleys+Roses/@53.3083749,-2.4761207,17z/data=!4m6!3m5!1s0x487aff645be4795b:0x2c88c7461bb54931!8m2!3d53.3083749!4d-2.4735458!16s%2Fg%2F1vzqrt45?entry=ttu',
     locale: 'en-GB',
     contentDir: '/data/content',

@@ -14,6 +14,7 @@ export type SiteMetadata = {
     socialBanner: string;
     email: string;
     facebook: string;
+    instagram: string;
     googlemap: string;
     locale: string;
     contentDir: string;
