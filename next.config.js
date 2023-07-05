@@ -1,13 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  experimental: {
-    images: {
-        unoptimized: true
-    }
-  },
   images: {
     domains: ['i.postimg.cc'],
+    unoptimized: true
   },
   webpack: (config) => {
     config.module.rules.push({
