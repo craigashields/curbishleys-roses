@@ -78,16 +78,16 @@ export default function Gallery({ images }: { images: Image[] }) {
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
               Open to public, garden trade & wholesale
             </p>
-            <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-4 ">
-              <a
-                className="inline-flex h-12 items-center justify-center gap-2 whitespace-nowrap rounded bg-white px-6 text-sm font-medium tracking-wide text-slate-900 transition duration-300 hover:bg-teal-700  hover:text-white focus:bg-teal-700 focus:text-white focus-visible:outline-none disabled:cursor-not-allowed disabled:border-teal-300 disabled:bg-teal-300 disabled:shadow-none sm:col-span-3"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={'https://online.fliphtml5.com/teqqd/naml/index.html#p=1'}
-              >
-                View Product List 23/24
-              </a>
-              <a
+            {/* <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-4 "> */}
+            <a
+              className="mt-4 inline-flex h-12 items-center justify-center gap-2 whitespace-nowrap rounded bg-white px-6 text-sm font-medium tracking-wide text-slate-900 transition duration-300 hover:bg-teal-700  hover:text-white focus:bg-teal-700 focus:text-white focus-visible:outline-none disabled:cursor-not-allowed disabled:border-teal-300 disabled:bg-teal-300 disabled:shadow-none"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={'https://online.fliphtml5.com/teqqd/naml/index.html#p=1'}
+            >
+              View Product List 23/24
+            </a>
+            {/* <a
                 className="group inline-flex h-12 items-center justify-center gap-2 whitespace-nowrap rounded bg-white px-6 text-sm font-medium tracking-wide text-slate-900 transition duration-300  hover:bg-teal-700 hover:text-white focus:bg-teal-700 focus:text-white focus-visible:outline-none disabled:cursor-not-allowed disabled:border-teal-300 disabled:bg-teal-300 disabled:shadow-none"
                 download="curbishleys-roses-product-list-2324.pdf"
                 href="/static/curbishleys-roses-product-list-2324.pdf"
@@ -107,8 +107,8 @@ export default function Gallery({ images }: { images: Image[] }) {
                     d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4c0 .6.4 1 1 1h14c.6 0 1-.4 1-1v-4c0-.6-.4-1-1-1h-2m-1-5-4 5-4-5m9 8h0"
                   />
                 </svg>
-              </a>
-            </div>
+              </a> */}
+            {/* </div> */}
           </div>
           {images.map((image) => (
             <BlurImage key={image.id} image={image} />
