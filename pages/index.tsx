@@ -89,7 +89,7 @@ export default function Gallery({ images }: { images: Image[] }) {
               </a>
               <a
                 className="group inline-flex h-12 items-center justify-center gap-2 whitespace-nowrap rounded bg-white px-6 text-sm font-medium tracking-wide text-slate-900 transition duration-300  hover:bg-teal-700 hover:text-white focus:bg-teal-700 focus:text-white focus-visible:outline-none disabled:cursor-not-allowed disabled:border-teal-300 disabled:bg-teal-300 disabled:shadow-none"
-                download="Curbishleys Roses Product List 23/24"
+                download="curbishleys-roses-product-list-2324.pdf"
                 href="/static/curbishleys-roses-product-list-2324.pdf"
               >
                 <svg
